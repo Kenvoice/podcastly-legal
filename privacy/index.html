@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Podcastly</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="nav"><a href="../">Home</a><a href="../terms/">Terms of Use</a><a href="../imprint/">Imprint</a></div>
+<main>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: August 23, 2026</p>
+
+<p>This policy explains what data Podcastly ("the app", "we") collects, why, and
+who it is shared with. Podcastly is operated by Kenzo Marian Weiss, a private
+individual based in Germany (full contact details in the
+<a href="../imprint/">Imprint</a>).</p>
+
+<h2>1. Data we collect</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th><th>Source</th></tr>
+<tr><td>Email address, password (hashed)</td><td>Account creation and sign-in</td><td>You, via Supabase Auth</td></tr>
+<tr><td>Saved words, review schedule, listening progress, study streak</td><td>Sync your library and flashcards across devices</td><td>Generated as you use the app, stored via Supabase</td></tr>
+<tr><td>Podcast episode audio</td><td>Generating a transcript for an episode nobody has transcribed yet</td><td>Sent to AssemblyAI (transcription provider); not sent again once a transcript is cached</td></tr>
+<tr><td>Short text snippets (words, example sentences)</td><td>Generating natural-sounding pronunciation audio</td><td>Sent to Google Cloud Text-to-Speech</td></tr>
+<tr><td>Your questions and the dictionary lookups you ask about</td><td>The in-app AI chat and definition features</td><td>Sent to DeepSeek (AI provider)</td></tr>
+<tr><td>Subscription/purchase status</td><td>Unlocking Pro features</td><td>Apple's App Store and RevenueCat; we never see your payment details</td></tr>
+</table>
+
+<p>Saved words and your review schedule are also kept locally on your device
+(in an on-device database) so the app works offline; this local copy never
+leaves your device except via the sync described above.</p>
+
+<h2>2. Legal basis</h2>
+<p>We process this data under Art. 6(1)(b) GDPR (necessary to provide the
+service you signed up for). We do not run advertising, analytics, or
+tracking SDKs, and we do not sell data.</p>
+
+<h2>3. Third-party processors</h2>
+<ul>
+<li><strong>Supabase</strong> — account authentication and database hosting.</li>
+<li><strong>AssemblyAI</strong> — speech-to-text transcription of podcast audio.</li>
+<li><strong>Google Cloud (Text-to-Speech)</strong> — generating spoken audio for words and sentences.</li>
+<li><strong>DeepSeek</strong> — AI-generated answers and dictionary definitions.</li>
+<li><strong>Apple (App Store) and RevenueCat</strong> — processing purchases and verifying subscription status.</li>
+</ul>
+<p>Some of these providers may process data outside the European Economic
+Area, including in the United States and, in the case of DeepSeek, in China.
+Where a provider is located outside the EEA, we rely on the safeguards that
+provider offers (such as standard contractual clauses) to the extent they
+are available; we recommend not submitting sensitive personal information
+in chat questions or search terms.</p>
+
+<h2>4. Retention</h2>
+<p>Your account data is kept for as long as your account exists. You can ask
+us to delete your account and associated data at any time (see Section 6).
+Cached podcast transcripts are shared, anonymous infrastructure — they are
+not tied to any individual account and are kept so the same episode does not
+need to be transcribed twice.</p>
+
+<h2>5. Children</h2>
+<p>Podcastly is not directed at children under 16. We do not knowingly
+collect data from children under that age.</p>
+
+<h2>6. Your rights</h2>
+<p>Under the GDPR you have the right to access, correct, delete, or export
+your data, and to object to or restrict its processing. To exercise any of
+these rights, or to request removal of a podcast feed you hold rights to,
+contact us at
+<a href="mailto:kenzo.voicebox@gmail.com">kenzo.voicebox@gmail.com</a>.
+You may also lodge a complaint with your local data protection authority;
+for the controller named above, that is the
+<a href="https://www.datenschutz.rlp.de/" target="_blank" rel="noopener">Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz</a>.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>If this policy changes materially, we will update the date above. Continued
+use of the app after a change means you accept the updated policy.</p>
+
+</main>
+<footer>Podcastly — operated by Kenzo Marian Weiss, Hohlweg 43, 56220 Bassenheim, Germany.</footer>
+</body>
+</html>
